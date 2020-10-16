@@ -12,6 +12,7 @@
         <module>Introduction</module>
         <module>Sorting_Algo</module>
         <module>Recursion</module>
+
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

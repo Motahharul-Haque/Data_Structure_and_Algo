@@ -2,7 +2,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
 
-        int[] inArray = { 20, 35, -15, 75, 55, 1, -22};
+        int[] inArray = { 20, 35, -15, 77, 55, 1, -22};
 
         quickSort(inArray, 0, inArray.length);
 
