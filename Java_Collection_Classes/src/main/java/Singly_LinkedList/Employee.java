@@ -1,4 +1,4 @@
-package Vector;
+package Singly_LinkedList;
 
 import java.util.Objects;
 
@@ -26,8 +26,8 @@ public class Employee {
         return lastName;
     }
 
-    public void setLastName(String lastname) {
-        this.lastName = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public int getId() {
@@ -36,15 +36,6 @@ public class Employee {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastname='" + lastName + '\'' +
-                ", id=" + id +
-                '}';
     }
 
     @Override
@@ -60,5 +51,14 @@ public class Employee {
     @Override
     public int hashCode() {
         return Objects.hash(firstName, lastName, id);
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", id=" + id +
+                '}';
     }
 }
