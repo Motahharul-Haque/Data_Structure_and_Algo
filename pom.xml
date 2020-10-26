@@ -13,6 +13,7 @@
         <module>Sorting_Algo</module>
         <module>Recursion</module>
         <module>Java_Collection_Classes</module>
+        <module>Stack</module>
 
     </modules>
     <properties>
