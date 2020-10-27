@@ -14,6 +14,7 @@
         <module>Recursion</module>
         <module>Java_Collection_Classes</module>
         <module>Stack</module>
+        <module>Queue</module>
 
     </modules>
     <properties>
