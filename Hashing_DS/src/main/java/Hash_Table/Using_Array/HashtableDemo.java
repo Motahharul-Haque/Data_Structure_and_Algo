@@ -22,5 +22,13 @@ public class HashtableDemo {
         System.out.println("Retrieve key Wilson : "+ ht.get("wilson"));
         System.out.println("Retrieve key Smith : "+ ht.get("smith"));
 
+        ht.remove("wilson");
+        ht.remove("jones");
+        ht.printHashtable();
+
+        System.out.println("Retrieve key Wilson : "+ ht.get("wilson"));
+
+
+
     }
 }
