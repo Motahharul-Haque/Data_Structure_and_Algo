@@ -18,6 +18,7 @@
         <module>Hash_Table</module>
         <module>Hashing_DS</module>
         <module>Searching</module>
+        <module>BST</module>
 
     </modules>
     <properties>
